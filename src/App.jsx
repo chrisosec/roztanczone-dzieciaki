@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const SIGNING_URL = "";
+const SIGNING_URL = "https://www.signwell.com/new_doc/0gJvz8gk8Fbjc3kx/";
 const REGISTRATION_URL = "https://forms.gle/kuGd6wpnk9NbqCJt9";
 const PHONE_DISPLAY = "508 063 589";
 const PHONE_LINK = "+48508063589";
