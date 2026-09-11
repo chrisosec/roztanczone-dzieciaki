@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 const SIGNING_URL = "";
+const REGISTRATION_URL = "https://forms.gle/kuGd6wpnk9NbqCJt9";
 const PHONE_DISPLAY = "508 063 589";
 const PHONE_LINK = "+48508063589";
 
@@ -63,9 +64,17 @@ export function App() {
               <div><dt>Koszt</dt><dd>100 zł / miesiąc</dd></div>
             </dl>
             <div className="hero-actions">
-              <SigningButton />
+              <div className="hero-action">
+                <a className="button button-registration" href={REGISTRATION_URL} target="_blank" rel="noreferrer">
+                  Zapisz dziecko
+                </a>
+                <p>Formularz zgłoszeniowy</p>
+              </div>
+              <div className="hero-action">
+                <SigningButton />
+                <p className="signing-condition">Tylko po otrzymaniu potwierdzenia przyjęcia na zajęcia</p>
+              </div>
             </div>
-            <p className="microcopy">Podpis zajmuje kilka minut. Kopię dokumentu otrzymasz po podpisaniu.</p>
           </div>
         </section>
 
@@ -91,10 +100,6 @@ export function App() {
           </div>
         </section>
 
-        <section className="cta" aria-labelledby="cta-title">
-          <div><p className="eyebrow">Zapisy już trwają</p><h2 id="cta-title">Dołącz do Roztańczonych Dzieciaków</h2><p>Pełną treść umowy zobaczysz w bezpiecznym procesie podpisu online.</p></div>
-          <div className="cta-actions"><SigningButton className="button-wide" /><a className="text-link" href={`https://wa.me/${PHONE_LINK.replace("+", "")}`}>Masz pytanie? Napisz na WhatsApp</a></div>
-        </section>
       </main>
 
       <footer>
