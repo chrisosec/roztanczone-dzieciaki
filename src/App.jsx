@@ -64,7 +64,6 @@ export function App() {
             </dl>
             <div className="hero-actions">
               <SigningButton />
-              <a className="button button-secondary" href="./dokumenty/umowa-roztanczone-dzieciaki-2026-2027.pdf" target="_blank" rel="noreferrer">Zobacz wzór umowy</a>
             </div>
             <p className="microcopy">Podpis zajmuje kilka minut. Kopię dokumentu otrzymasz po podpisaniu.</p>
           </div>
@@ -93,7 +92,7 @@ export function App() {
         </section>
 
         <section className="cta" aria-labelledby="cta-title">
-          <div><p className="eyebrow">Zapisy już trwają</p><h2 id="cta-title">Dołącz do Roztańczonych Dzieciaków</h2><p>Najpierw zapoznaj się z umową, a następnie podpisz ją online.</p></div>
+          <div><p className="eyebrow">Zapisy już trwają</p><h2 id="cta-title">Dołącz do Roztańczonych Dzieciaków</h2><p>Pełną treść umowy zobaczysz w bezpiecznym procesie podpisu online.</p></div>
           <div className="cta-actions"><SigningButton className="button-wide" /><a className="text-link" href={`https://wa.me/${PHONE_LINK.replace("+", "")}`}>Masz pytanie? Napisz na WhatsApp</a></div>
         </section>
       </main>

@@ -44,7 +44,6 @@ button { font: inherit; }
 .button:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--plum); }
 .button:focus-visible, .text-link:focus-visible, .topbar a:focus-visible, footer a:focus-visible, .modal-close:focus-visible { outline: 4px solid #1796a4; outline-offset: 4px; }
 .button-primary { color: #fff; background: var(--magenta); }
-.button-secondary { color: var(--plum); background: var(--paper); }
 .button-dark { color: #fff; background: var(--plum); }
 .microcopy { margin: 14px 0 0; color: #71365c; font-size: .86rem; line-height: 1.4; }
 
